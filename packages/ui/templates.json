@@ -1,0 +1,6 @@
+{
+  "banner": {
+    "files": ["components/banner.tsx"],
+    "destination": "components/ui"
+  }
+}
