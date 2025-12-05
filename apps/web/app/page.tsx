@@ -1,6 +1,7 @@
 import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import Banner  from "@repo/ui/banner";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -20,8 +21,10 @@ const ThemeImage = (props: Props) => {
 
 export default function Home() {
   return (
+    
     <div className={styles.page}>
       <main className={styles.main}>
+        <Banner />
         <ThemeImage
           className={styles.logo}
           srcLight="turborepo-dark.svg"
