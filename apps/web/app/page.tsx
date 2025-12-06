@@ -1,8 +1,15 @@
 
 
+
+// alabaster gray : E6E1E2
+// dark gunmetal : 171512
+// Light Gold: E1D58A
+// Old Gold: C3AF32
+
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-[#131815] px-6 py-24 text-center text-white">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-[#171512] px-6 py-24 text-center text-white">
       <h1 className="text-5xl font-extrabold tracking-tight sm:text-7xl">
         Build Something Extraordinary
       </h1>
